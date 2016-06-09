@@ -1,0 +1,11 @@
+{
+	"full_name": "Jeremiah Lant",
+	"email": "jlant@usgs.gov",
+	"project_name": "pyproj",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+	"project_short_description": "pyproj contains all the files and directories you need to create a Python project.",
+    "release_date": "{% now 'local' %}",
+    "year": "{{ cookiecutter.release_date[:4] }}",
+    "version": "0.1.0",
+    "reviewed_and_approved": "no"
+}
